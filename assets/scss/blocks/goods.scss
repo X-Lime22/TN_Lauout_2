@@ -1,0 +1,99 @@
+.goods {
+	margin-bottom: 20px;
+	
+	&__inner {
+		flex-wrap: wrap;
+	}
+	
+	&__title {
+		@include item__title;
+		
+		margin-bottom: 41px;
+	}
+	
+	&__card {
+		
+		margin-bottom: 57px;
+		
+		&-like {
+			position: relative;
+			
+			&-discount {
+				&::before {
+					@include pseudo--discount-new;
+					
+					background: url("../img/svg/discount.svg");
+				}
+			}
+			
+			&::after {
+				@include pseudo--like;
+				
+				background: url("../img/svg/goods-like.svg");
+			}
+			
+			&-add {
+				&:after {
+					@include pseudo--like;
+					
+					background: url("../img/svg/goods-add-like.svg");
+				}
+			}
+			
+			&-new {
+				&::before {
+					@include pseudo--discount-new;
+					
+					background: url("../img/svg/new.svg");
+				}
+			}
+		}
+		
+		&-photo {
+			margin-bottom: 20px;
+		}
+		
+		&-title {
+			font-size: $fs-18;
+			
+			margin-bottom: 11px;
+			
+			min-height: 50px;
+		}
+		
+		&-subtitle {
+			color: $gray;
+			
+			margin-bottom: 15px;
+		}
+		
+		&-price-cost {
+			font-size: 20px;
+			font-weight: 500;
+			
+			&.color-red {
+				color: #EB001B;
+			}
+			&-close {
+				text-decoration: line-through;
+				color: #707372;
+				font-size: $regular-font-size;
+				font-weight: 400;
+			}
+		}
+		
+		&-color {
+			margin-left: 10px;
+			
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+.invisible-text {
+	width: 100%;
+	height: 1.3em;
+	display: inline-block;
+}

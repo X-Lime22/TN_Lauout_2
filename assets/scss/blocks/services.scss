@@ -1,0 +1,21 @@
+.services {
+	background-color: $theme-primary-color-second;
+	margin-bottom: 120px;
+	
+	&__inner {
+		
+		@media (max-width: 808px) {
+			& {
+				margin: 0 0 20px 0;
+			}
+		}
+	}
+	
+	&__text {
+		margin-left: 30px;
+	}
+	
+	&-row {
+		padding: 44px 0 35px 0;
+	}
+}

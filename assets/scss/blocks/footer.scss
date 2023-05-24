@@ -1,0 +1,182 @@
+.footer {
+	padding: 80px 0 117px 0;
+	
+	&.capsule__footer {
+		padding: 80px 0 0 0;
+	}
+	
+	&-row {
+		margin-bottom: 78px;
+	}
+	
+	&__inner {
+		
+		@media (max-width: 808px) {
+			& {
+				flex-direction: column;
+			}
+		}
+	}
+	
+	&__logo {
+		margin-bottom: 198px;
+		
+		@media (max-width: 808px) {
+			& {
+				margin-bottom: 40px;
+			}
+		}
+	}
+	
+	&__item {
+		
+		@media (max-width: 1039px) {
+			& {
+				width: 100%;
+				margin-bottom: 20px;
+			}
+		}
+	}
+	
+	&__docs {
+		
+		&-offer {
+			font-size: 14px;
+		
+			margin-bottom: 21px;
+		}
+		
+		&-conf {
+			font-size: 14px;
+			
+			color: #707372;
+		}
+	}
+	
+	&__nav {
+		width: 45%;
+	
+		margin-left: 80px;
+		
+		&-link {
+			text-decoration: none;
+			
+			margin-bottom: 31px;
+			
+			transition: .2s;
+			&:hover {
+				color: #707372;
+			}
+			
+			&:last-child {
+				margin: 0;
+			}
+		}
+		
+		@media (max-width: 1039px) {
+			& {
+				width: 100%;
+				
+				margin: 0 20px 0 0;
+			}
+		}
+		
+		@media (max-width: 808px) {
+			& {
+				width: 100%;
+				
+				margin: 0 0 20px 0;
+			}
+		}
+	}
+	
+	&__contacts {
+		width: 35%;
+		
+		&-name {
+			font-size: 14px;
+		
+			text-transform: uppercase;
+			color: #C8C9C7;
+			
+			margin-bottom: 11px;
+			
+			&.mb19 {
+				margin-bottom: 19px;
+			}
+		}
+		
+		&-info.number {
+			margin-bottom: 10px;
+		}
+		
+		@media (max-width: 808px) {
+			& {
+				width: 50%;
+			}
+		}
+		
+		&-time {
+			@media (max-width: 808px) {
+				& {
+					margin-bottom: 20px;
+				}
+			}
+		}
+		
+		&-contacts {
+			@media (max-width: 808px) {
+				& {
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+	
+	&__social {
+		
+		&-link {
+			margin-left: 34px;
+			
+			&:first-child {
+				margin: 0;
+			}
+		}
+	}
+	
+	&__copyright {
+		padding: 60px 0;
+		background-color: $black;
+		
+		color: #C4C4C4;
+		font-size: 14px;
+		
+		&-do span {
+			color: #00D2C8;
+		}
+		
+		&_inner {
+			@media (max-width: 808px) {
+				& {
+					flex-direction: column;
+				}
+			}
+		}
+		
+		&-card {
+			
+			@media (max-width: 808px) {
+				& {
+					flex-wrap: wrap;
+				}
+			}
+			&-img {
+				margin-left: 44px;
+				
+				&:first-child {
+					margin: 0;
+				}
+			}
+		}
+	}
+}

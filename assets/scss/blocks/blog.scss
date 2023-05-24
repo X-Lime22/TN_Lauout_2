@@ -1,0 +1,42 @@
+.blog {
+	padding: 120px 0 130px 0;
+	
+	background-color: $theme-primary-color-second;
+	
+	&__item {
+		margin-bottom: 51px;
+	}
+	
+	&__title {
+		@include item__title;
+	}
+	
+	&__arrow {
+		width: 30px;
+		
+		margin-left: 30px;
+		
+		&:first-child {
+			margin: 0;
+		}
+	}
+	
+	&__block {
+		
+		margin-bottom: 77px;
+		&-class {
+			color: $gray;
+			
+			margin-bottom: 10px;
+		}
+		
+		&-img {
+			margin-bottom: 20px;
+		}
+	}
+	
+}
+
+.upper-text {
+	text-transform: uppercase;
+}

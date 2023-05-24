@@ -1,0 +1,23 @@
+.button {
+	font-size: $fs-18;
+	padding: 13px 50px 13px 50px;
+	border: 0;
+	display: block;
+	
+	margin: 0 auto;
+	
+	color: $theme-primary-color;
+	background-color: $black;
+	
+	&.product-button {
+		margin: 0;
+		padding: 13px 30px 14px 30px;
+		
+		
+		@media (max-width: 1032px) {
+			& {
+				width: 100%;
+			}
+		}
+	}
+}

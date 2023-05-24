@@ -1,0 +1,26 @@
+$regular-font-size: 16px;
+$fs-18: 18px;
+$theme-primary-color: #ffffff;
+$theme-primary-color-second: #f1f1f1;
+$black: #101820;
+$gray: #707372;
+
+/*bootstrap*/
+$grid-breakpoints: (
+		xs: 0,
+		sm: 616px,
+		md: 808px,
+		lg: 1032px,
+		xl: 1240px,
+		xxl: 1540px
+);
+
+$container-max-widths: (
+		sm: 580px,
+		md: 740px,
+		lg: 1000px,
+		xl: 1180px,
+		xxl: 1470px
+);
+
+$grid-gutter-width: 30px;

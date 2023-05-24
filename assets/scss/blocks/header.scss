@@ -1,0 +1,105 @@
+.header {
+	padding: 35px 0 35px 0;
+	
+	box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+	
+	&-row {
+		@media (max-width: 1039px) {
+			& {
+				flex-direction: column;
+				text-align: center;
+			}
+		}
+	}
+	
+	&__logo {
+		
+		@media (max-width: 1039px) {
+			& {
+				margin-bottom: 20px;
+			}
+		}
+		
+		&-block {
+			@media (max-width: 1039px) {
+				& {
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+	
+	&__nav {
+		
+		&-link {
+			text-decoration: none;
+			margin-left: 47px;
+			
+			&:first-child {
+				margin-left: 0;
+			}
+			&-select {
+				padding-right: 7px;
+				
+				text-decoration: none;
+				
+				&-img {
+					margin-top: 5px;
+					
+					width: 10px;
+					height: 15px;
+					cursor: pointer;
+				}
+			}
+			
+			@media (max-width: 1239px) {
+				& {
+					margin-left: 38px;
+				}
+			}
+			
+			@media (max-width: 1039px) {
+				& {
+					margin: 0 0 10px 0;
+					
+					&:last-child {
+						margin: 0 0 20px 0;
+					}
+				}
+			}
+		}
+		
+		@media (max-width: 1039px) {
+			& {
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+	}
+	
+	&__func {
+		
+		&-nav {
+			justify-content: flex-end;
+			
+			@media (max-width: 1039px) {
+				& {
+					justify-content: center;
+					
+					margin: 0 auto;
+				}
+			}
+			
+			&-link {
+				margin-left: 30px;
+				
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+		}
+		
+	}
+	
+	
+}

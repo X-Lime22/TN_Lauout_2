@@ -1,0 +1,63 @@
+@import "vars";
+@import "mixin";
+
+/*bootstrap*/
+@import "bootstrap/functions";
+@import "bootstrap/mixins";
+@import "bootstrap/variables";
+@import "bootstrap/variables-dark";
+@import "bootstrap/maps";
+
+@import "bootstrap/utilities";
+@import "bootstrap/utilities/api";
+@import "bootstrap/containers";
+@import "bootstrap/reboot";
+@import "bootstrap/grid";
+
+/* blocks */
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/services";
+@import "blocks/goods";
+@import "blocks/button";
+@import "blocks/brands";
+@import "blocks/catalog";
+@import "blocks/blog";
+@import "blocks/footer";
+@import "blocks/crumbs";
+@import "blocks/product";
+
+
+@font-face {
+    font-family: 'Styrene';
+    src: url('../fonts/StyreneALC-Light.otf');
+    //src: local('');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Styrene';
+    src: url('../fonts/StyreneALC-Regular.otf');
+    //src: local('');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Styrene';
+    src: url('../fonts/StyreneALC-Medium.otf');
+    //src: local('');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Styrene';
+    src: url('../fonts/StyreneALC-Bold.otf');
+    //src: local('');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
