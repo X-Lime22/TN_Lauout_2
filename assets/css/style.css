@@ -6399,6 +6399,9 @@ progress {
   flex-direction: column;
   margin-top: 25px;
 }
+.intro__inner.capsule__intro__inner {
+  margin-top: 0;
+}
 .intro__inner-block {
   margin-bottom: 20px;
 }
@@ -6413,6 +6416,19 @@ progress {
   padding: 5px 20px 5px 15px;
   text-transform: uppercase;
 }
+.intro__title.capsule__name {
+  font-size: 48px;
+  text-transform: none;
+  font-weight: bold;
+  padding: 1px 80px 1px 80px;
+  color: #ffffff;
+  background-color: #101820;
+}
+.intro__title.capsule__intro__title {
+  font-size: 20px;
+  padding: 8px 50px;
+  font-weight: 400;
+}
 @media (max-width: 808px) {
   .intro__title {
     font-size: 24px;
@@ -6420,17 +6436,6 @@ progress {
 }
 .intro__title.green {
   background-color: #BAFD90;
-}
-.intro__title.capsule__intro__title {
-  font-size: 20px;
-  font-weight: 500;
-}
-.intro__title.capsule__name {
-  font-size: 48px;
-  text-transform: none;
-  padding: 5px 80px 5px 85px;
-  color: #ffffff;
-  background-color: #101820;
 }
 .intro-row {
   position: relative;
@@ -6561,11 +6566,13 @@ progress {
 .goods__card-title {
   font-size: 18px;
   margin-bottom: 11px;
-  min-height: 50px;
 }
 .goods__card-subtitle {
   color: #707372;
   margin-bottom: 15px;
+}
+.goods__card-subtitle.one-word {
+  margin-bottom: 38px;
 }
 .goods__card-price-cost {
   font-size: 20px;

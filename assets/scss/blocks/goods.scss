@@ -58,13 +58,17 @@
 			
 			margin-bottom: 11px;
 			
-			min-height: 50px;
+			//min-height: 50px;
 		}
 		
 		&-subtitle {
 			color: $gray;
 			
 			margin-bottom: 15px;
+			
+			&.one-word {
+				margin-bottom: 38px;
+			}
 		}
 		
 		&-price-cost {
@@ -97,3 +101,5 @@
 	height: 1.3em;
 	display: inline-block;
 }
+
+
